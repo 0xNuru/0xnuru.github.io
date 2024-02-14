@@ -230,8 +230,8 @@ body {
 
 .main-button-red a {
   font-size: 13px;
-  color: #1f272b;
-  background-color: #f7f7f7;
+  color: #f7f7f7;
+  background-color: black;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -242,8 +242,8 @@ body {
 
 .main-button-red a:hover {
   opacity: 0.9;
-  background-color: black;
-  color: #f7f7f7;
+  background-color: #f7f7f7;
+  color: black;
 }
 
 .main-button-yellow a {
