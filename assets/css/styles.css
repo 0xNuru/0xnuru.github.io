@@ -788,6 +788,7 @@ banner
 
 #bg-video::-webkit-media-controls {
   display: none !important;
+  z-index: -1;
 }
 
 .video-overlay {
