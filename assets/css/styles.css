@@ -328,7 +328,7 @@ header
 }
 
 .background-header {
-  background-color: #fff !important;
+  background-color: #000 !important;
   height: 80px !important;
   position: fixed !important;
   top: 0 !important;
@@ -343,7 +343,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e !important;
+  color: #fff !important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -544,7 +544,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #1e1e1e;
+  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -564,7 +564,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #1e1e1e;
+  background-color: #fff;
   display: block;
   position: absolute;
   width: 30px;
@@ -659,7 +659,7 @@ header
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
-    color: #1e1e1e;
+    color: #fff;
     font-family: "Bank Gothic Medium";
   }
   .header-area.header-sticky .nav li a:hover,
@@ -671,7 +671,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    /*background-color: #000;*/
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -784,6 +784,10 @@ banner
   max-height: 100vh;
   object-fit: cover;
   z-index: -1;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
 }
 
 #bg-video::-webkit-media-controls {
