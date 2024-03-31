@@ -72,7 +72,7 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="caption">
-                  <h6>Dawn of a new age.</h6>
+                  <h6>Dawn of a new age</h6>
                   <h2>The best or nothing.</h2>
                   <p>Lorem ipsum dolor sit amet, <span style="font-family: 'Bank Gothic Medium'; font-size: 19px;">ASTRAFORT</span> consectoetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
               <div class="main-button-black">
@@ -746,6 +746,17 @@
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var bgVideo = document.getElementById('bg-video');
+        if (bgVideo) {
+            bgVideo.controls = false; // Explicitly remove controls
+            bgVideo.play().catch(function(error) {
+                console.error("Video play failed:", error);
+            });
+        }
+    });
+  </script>
     <script>
         //according to loftblog tut
         $('.nav li:first').addClass('active');
