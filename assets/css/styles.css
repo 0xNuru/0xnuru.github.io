@@ -282,6 +282,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
+  text-align: center;
 }
 
 /* 
@@ -979,7 +980,8 @@ upcoming meetings
 */
 
 section.upcoming-meetings {
-  background-image: url(../images/meetings-bg.jpg);
+  /*background-image: url(../images/meetings-bg.jpg);*/
+  background-color: #000;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1195,7 +1197,8 @@ courses
 */
 
 section.our-courses {
-  background-image: url(../images/meetings-bg.jpg);
+  /*background-image: url(../images/meetings-bg.jpg);*/
+  background-color: #000;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1411,7 +1414,8 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/meetings-bg.jpg);
+  /*background-image: url(../images/meetings-bg.jpg);*/
+  background-color: #000;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
