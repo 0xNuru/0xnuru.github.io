@@ -773,7 +773,7 @@ banner
 
 .main-banner {
   position: relative;
-  max-height: 100%;
+  max-height: 100vh;
   overflow: hidden;
   margin-bottom: -7px;
 }
@@ -1203,8 +1203,8 @@ section.our-courses {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 140px;
-  padding-bottom: 130px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .our-courses .item .down-content {
