@@ -28,6 +28,7 @@
         var bgVideo = document.getElementById("bg-video");
         if (bgVideo) {
           bgVideo.controls = false; // Explicitly remove controls
+          bgVideo.style.display = ""; // Make the video visible
           bgVideo.play().catch(function (error) {
             console.error("Video play failed:", error);
           });
@@ -80,6 +81,7 @@
     <!-- ***** Main Banner Area Start ***** -->
     <section class="section main-banner" id="top" data-section="section1">
       <video
+        style="display: none"
         controls="false"
         preload="auto"
         autoplay="autoplay"
