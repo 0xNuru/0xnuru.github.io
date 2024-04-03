@@ -23,6 +23,17 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var bgVideo = document.getElementById("bg-video");
+        if (bgVideo) {
+          bgVideo.controls = false; // Explicitly remove controls
+          bgVideo.play().catch(function (error) {
+            console.error("Video play failed:", error);
+          });
+        }
+      });
+    </script>
   </head>
 
   <body>
@@ -197,7 +208,7 @@
                 <div class="meeting-item">
                   <div class="thumb">
                     <div class="price">
-                      <span>$22.00</span>
+                      <span>$23.00</span>
                     </div>
                     <a href="product-details.html"
                       ><img
@@ -657,17 +668,7 @@
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var bgVideo = document.getElementById("bg-video");
-        if (bgVideo) {
-          bgVideo.controls = false; // Explicitly remove controls
-          bgVideo.play().catch(function (error) {
-            console.error("Video play failed:", error);
-          });
-        }
-      });
-    </script>
+
     <script>
       //according to loftblog tut
       $(".nav li:first").addClass("active");
