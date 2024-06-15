@@ -873,10 +873,11 @@ services
 
 .services .item {
   background-repeat: no-repeat;
-  background-color: #1e1e1e;
+  background-color: black;
   background-size: cover;
   background-position: center center;
   border-radius: 20px;
+  border:solid 2px;
   text-align: center;
   color: #fff;
   padding: 40px;
@@ -1050,6 +1051,16 @@ section.upcoming-meetings .categories .main-button-black a {
   border-top-left-radius: 20px;
 }
 
+.resize-image {
+  height: 233px;
+  width: auto;
+}
+
+.resize-img {
+  height: 354px;
+  width: auto;
+}
+
 .meeting-item .thumb .price {
   position: absolute;
   left: 20px;
@@ -1102,7 +1113,6 @@ section.upcoming-meetings .categories .main-button-black a {
 }
 
 .meeting-item .down-content p {
-  margin-left: 50px;
   color: #1f272b;
   font-size: 14px;
 }
@@ -1395,7 +1405,7 @@ section.our-facts h2 {
 section.our-facts .video {
   text-align: center;
   margin-left: 70px;
-  background-image: url(../images/video-item-bg.jpg);
+  background-image: url(../images/);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
