@@ -871,7 +871,7 @@ services
   width: 100%;
 }
 
-.services .item {
+.services {
   background-repeat: no-repeat;
   background-color: black;
   background-size: cover;
@@ -1057,7 +1057,7 @@ section.upcoming-meetings .categories .main-button-black a {
 }
 
 .resize-img {
-  height: 354px;
+  height: 231px;
   width: auto;
 }
 
