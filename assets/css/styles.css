@@ -150,7 +150,6 @@ footer,
 hgroup {
   display: block;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -877,7 +876,6 @@ services
   background-size: cover;
   background-position: center center;
   border-radius: 20px;
-  border:solid 2px;
   text-align: center;
   color: #fff;
   padding: 40px;
@@ -1387,14 +1385,14 @@ section.our-facts h2 {
 
 .count-digit {
   margin: 5px 0px;
-  color: #f5a425;
+  color: white;
   font-weight: 700;
   font-size: 36px;
 }
 .count-title {
   font-size: 18px;
   font-weight: 500;
-  color: #fff;
+  color: white;
   letter-spacing: 0.5px;
 }
 
