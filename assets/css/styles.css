@@ -442,7 +442,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #f5a425 !important;
+  color: white !important;
   opacity: 1;
 }
 
@@ -1481,7 +1481,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color: #198754;
+  background-color: black;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
